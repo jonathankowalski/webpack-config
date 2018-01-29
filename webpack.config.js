@@ -12,7 +12,6 @@ let config = {
   watch: dev,
   devtool: dev ? "source-map" : false,
   module: {
-    noParse: /switchery.*.js/,
     rules: [
       {
         enforce: "pre",
